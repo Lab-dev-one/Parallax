@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parallax</title>
+    <meta charset="utf-8">
+
+    <!-- Estilo customizado <link rel="stylesheet" type="text/css" href="css/estilo.css"> -->
+
+    <style type="text/css">
+        body,
+        html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        p {
+            margin: 30px 0;
+            text-align: justify;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+            font-style: oblique;
+            margin: 10px 0 60px 0;
+        }
+
+        /*Efeito Parallax*/
+        .caixa1,
+        .caixa2,
+        .caixa3,
+        .caixa4 {
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1 {
+            background-image: url(imagens/imagem1.jpg);
+        }
+
+        .caixa2 {
+            background-image: url(imagens/imagem2.jpg);
+        }
+
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+        }
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+
+        }
+
+        .conteudo-titulo span.titulo {
+            color: #FFF;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        .conteudo-titulo a {
+            text-decoration: none;
+        }
+
+        .texto {
+            width: 50%;
+            float: left;
+        }
+
+        .foto {
+            width: 50%;
+            float: left;
+        }
+
+        .fotoE {
+            width: 90%;
+            height: 300px;
+            margin-right: 30px;
+            padding: 10px;
+            border: 4px dashed rgba(0, 0, 0, 0.7);
+        }
+
+        .fotoD {
+            width: 90%;
+            height: 300px;
+            margin-left: 30px;
+            padding: 10px;
+            border: 4px dashed rgba(0, 0, 0, 0.7);
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <a href="#secao1"><span class="titulo">Passeio de balões</span></a>
+        </div>
+    </div>
+    <a name = "secao1"></a>
+    <div class="conteudo">
+        <h3>Passeios e voos de balão.</h3>
+        <div class="texto">
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na cidade de Boituva a 116 km de São Paulo
+                você poderá desfrutar de um passeio de balão, uma experiência
+                única e inesquecvel sobrevoando cidade, campos e rios, a 500 metros acima do solo em áreas habitadas, e
+                quase ao nvel do solo em áreas de mata ou plantações que não estejam ocupadas por animais domésticos,
+                chegando mesmo a tocar a copa das árvores.
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O tempo de voo é de uma hora quando as condições
+                atmosféricas permitem e o passeio todo vai ocupar cerca
+                de cerca de três horas, após o passeio de balão o tradicional brinde com champanhe e no retorno ao ponto
+                de
+                encontro um delicioso café da manhã completo no Hotel Boituva que dispõe de estacionamento.
+            </p>
+        </div>
+        <div class="foto">
+            <img class="fotoD" src="imagens/foto_balao.jpeg">
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <a href="#secao2"><span class="titulo">Pegando a estrada</span></a>
+        </div>
+    </div>
+    <a name = "secao2"></a>
+    <div class="conteudo">
+        <h3>Curtindo na estrada</h3>
+        <div class="foto">
+            <img class="fotoE" src="imagens/estrada.jpeg">
+        </div>
+        <div class="texto">
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A esperada carta de motorista chegou e você
+                já está pensando naquela viagem que fará com os amigos. A ansiedade para pegar a estrada e, enfim, se
+                sentir livre sendo seu próprio motorista é grande. Porém, é preciso ter cautela e controlar as emoções:
+                dirigir em estradas possui grandes riscos e, por isso, quanto mais atenção e segurança melhor.
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se você é iniciante nas pistas, vale a pena treinar um
+                pouco na cidade antes de pegar a estrada. Assim, você ganhará mais habilidade e confiança como
+                motorista, além de se acostumar com coisas simples como se manter corretamente em uma faixa, manter
+                distância adequada do carro da frente e dirigir na velocidade mínima ou máxima adequada.
+            </p>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <a href="#secao3"><span class="titulo">Pôr do sol</span></a>
+        </div>
+    </div>
+    <a name = "secao3"></a>
+    <div class="conteudo">
+        <h3>Por que ver o pôr do sol</h3>
+        <div class="texto">
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Há quem não goste do horário de verão, mas
+                há também quem ame! Uma das grandes vantagens do horário de verão é poder ver o pôr do sol no Brasil,
+                muitas vezes, às 19 horas. Por isso, separamos aqui os cinco mais belos luxres para ver o pôr do sol no
+                Brasil, durante o horário de verão!
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dito muitas vezes como um local inspirador, a Praça do
+                Pôr do Sol está localizada no bairro de Alto de Pinheiros, em São Paulo. É uma das paradas obrigatórias
+                para quem quer fugir da “selva de pedra” paulistana e admirar a natureza no horário de verão. Muitos
+                casais, amigos e, até mesmo, pessoas sozinhas, vão até a praça de bike, skate ou a pé para fugir dos
+                carros e da rotina.
+            </p>
+        </div>
+        <div class="foto">
+            <img class="fotoD" src="imagens/sol.jpeg">
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <a href="#secao4"><span class="titulo">Montanhas</span></a>
+        </div>
+    </div>
+    <a name = "secao4"></a>
+    <div class="conteudo">
+        <h3>Montanhismo na prática</h3>
+        <div class="foto">
+            <img class="fotoE" src="imagens/montanha.jpg">
+        </div>
+        <div class="texto">
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Montanhismo é como se chama a prática de
+                aventura para subir em ambientes naturais, as montanhas, que são chamadas também de acidentes
+                geográficos. O montanhismo muitas vezes é confundido com o Alpinismo, que leva este nome do lugar onde
+                surgiu este esporte - os Alpes, o lugar onde foram feitas as primeiras escaladas. Porém o nome depende
+                muito do lugar, na Argentina é chamado de Andinismo, pois é praticado nos Andes, já no Himalaia de
+                himalaísmo.
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este esporte é feito em paredes geladas ou não, por meio
+                de caminhadas ou escaladas. Esta prática esta no excursionismo que é um gênero que engloba várias outras
+                práticas, como canoagem, campismo, mergulho, a caminhada por trilhas entre outras.
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+</body>
+
+</html>
